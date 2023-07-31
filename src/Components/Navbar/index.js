@@ -1,23 +1,23 @@
 import React from "react";
 import { Nav, NavLink, NavMenu }
-    from "./NavbarElements";
+    from "./NavbarElement";
  
 const Navbar = () => {
     return (
         <>
             <Nav>
                 <NavMenu>
-                    <NavLink to="/about" activeStyle>
+                    <NavLink to="/Index" activeStyle>
+                        Home
+                    </NavLink>
+                    <NavLink to="/About" activeStyle>
                         About
                     </NavLink>
+                    <NavLink to="/Beneficiary" activeStyle>
+                        Bebeficiaries
+                    </NavLink>
                     <NavLink to="/contact" activeStyle>
-                        Contact Us
-                    </NavLink>
-                    <NavLink to="/blogs" activeStyle>
-                        Blogs
-                    </NavLink>
-                    <NavLink to="/sign-up" activeStyle>
-                        Sign Up
+                        Contact
                     </NavLink>
                 </NavMenu>
             </Nav>
