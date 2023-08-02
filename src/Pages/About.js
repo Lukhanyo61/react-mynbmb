@@ -27,7 +27,7 @@ export default function About() {
   return (
     <MDBNavbar expand='lg' light bgColor='light'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>Navbar</MDBNavbarBrand>
+        <MDBNavbarBrand href='#'>About</MDBNavbarBrand>
         <MDBNavbarToggler
           aria-expanded='false'
           aria-label='Toggle navigation'
@@ -40,9 +40,9 @@ export default function About() {
             <MDBNavbarLink active aria-current='page' href='#'>
               Home
             </MDBNavbarLink>
-            <MDBNavbarLink href='#'>About</MDBNavbarLink>
-            <MDBNavbarLink href='#'>Beneficiary</MDBNavbarLink>
-            <MDBNavbarLink href='#' tabIndex={-1} aria-disabled='true'>
+            <MDBNavbarLink href='/About'>About</MDBNavbarLink>
+            <MDBNavbarLink href='/Beneficiary'>Beneficiary</MDBNavbarLink>
+            <MDBNavbarLink href='/Contact'>
               Contact
             </MDBNavbarLink>
           </MDBNavbarNav>
