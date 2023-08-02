@@ -18,7 +18,7 @@ export default function Index() {
   return (
     <MDBNavbar expand='lg' light bgColor='light'>
     <MDBContainer fluid>
-      <MDBNavbarBrand href='#'>About</MDBNavbarBrand>
+      <MDBNavbarBrand href='#'>Index</MDBNavbarBrand>
       <MDBNavbarToggler
         aria-expanded='false'
         aria-label='Toggle navigation'

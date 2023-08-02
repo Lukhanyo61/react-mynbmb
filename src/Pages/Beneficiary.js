@@ -11,20 +11,25 @@ import {
   MDBCollapse
 } from 'mdb-react-ui-kit';
 
-import {
-    MDBCard,
-    MDBCardTitle,
-    MDBCardText,
-    MDBCardBody,
-    MDBCardImage,
-    MDBRow,
-    MDBCol
-  } from 'mdb-react-ui-kit';
+import React from 'react';
+import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
+import React from 'react';
+import {
+  MDBCard,
+  MDBCardBody,
+  MDBCardTitle,
+  MDBCardText,
+  MDBBtn
+} from 'mdb-react-ui-kit';
+
+import * as mdb from 'mdb-ui-kit'; 
+import { Input } from 'mdb-ui-kit'; 
 export default function Beneficiary() {
   const [showNavSecond, setShowNavSecond] = useState(false);
 
   return (
+      <>
     <MDBNavbar expand='lg' light bgColor='light'>
       <MDBContainer fluid>
         <MDBNavbarBrand href='#'>Beneficiary</MDBNavbarBrand>
@@ -49,6 +54,8 @@ export default function Beneficiary() {
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>
+    
+
 
     
 
@@ -56,9 +63,65 @@ export default function Beneficiary() {
 
 
 
+<MDBContainer>
+<MDBRow>
+  <MDBCol size='md'>
+  
+
+<MDBCard>
+      <MDBCardBody>
+        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardText>  
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+        </MDBCardText>
+        <MDBBtn>Button</MDBBtn>
+      </MDBCardBody>
+    </MDBCard>
+  
+  </MDBCol>
+  <MDBCol size='md'>
+  <MDBCardBody>
+        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardText>  
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+        </MDBCardText>
+        <MDBBtn>Button</MDBBtn>
+      </MDBCardBody>
+    </MDBCard>
+  </MDBCol>
+
+  <MDBCol size='md'>
+    <MDBCardBody>
+        <MDBCardTitle>Card title</MDBCardTitle>
+        <MDBCardText>  
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+        </MDBCardText>
+        <MDBBtn>Button</MDBBtn>
+      </MDBCardBody>
+    </MDBCard>
+  </MDBCol>
+</MDBRow>
+
+</MDBContainer>
 
 
+
+
+
+
+</>
     
   );
 }
+ 
+
+
+
+
+
+
+
+  
+
+   
  
