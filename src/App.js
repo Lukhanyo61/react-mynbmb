@@ -12,6 +12,7 @@ import NavbarElements from 'Components/Navbar/NavbarElements'
  
 function App() {
     return (
+        <>
         <Router>
             <Navbar />
             <Routes>
@@ -22,6 +23,9 @@ function App() {
                 
             </Routes>
         </Router>
+
+      
+       </>
     );
 }
  

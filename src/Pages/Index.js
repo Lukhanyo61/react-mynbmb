@@ -9,13 +9,18 @@ import {
   MDBNavbarLink,
   MDBIcon,
   MDBCollapse
+  
 } from 'mdb-react-ui-kit';
+
+
+
 
 
 export default function Index() {
   const [showNavSecond, setShowNavSecond] = useState(false);
 
   return (
+    <>
     <MDBNavbar expand='lg' light bgColor='light'>
     <MDBContainer fluid>
       <MDBNavbarBrand href='#'>Index</MDBNavbarBrand>
@@ -42,8 +47,11 @@ export default function Index() {
   </MDBNavbar>
 
 
-    
 
+
+
+    
+</>
 
 
 

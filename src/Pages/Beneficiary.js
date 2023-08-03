@@ -63,46 +63,7 @@ export default function Beneficiary() {
 
 
 
-<MDBContainer>
-<MDBRow>
-  <MDBCol size='md'>
-  
 
-<MDBCard>
-      <MDBCardBody>
-        <MDBCardTitle>Card title</MDBCardTitle>
-        <MDBCardText>  
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </MDBCardText>
-        <MDBBtn>Button</MDBBtn>
-      </MDBCardBody>
-    </MDBCard>
-  
-  </MDBCol>
-  <MDBCol size='md'>
-  <MDBCardBody>
-        <MDBCardTitle>Card title</MDBCardTitle>
-        <MDBCardText>  
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </MDBCardText>
-        <MDBBtn>Button</MDBBtn>
-      </MDBCardBody>
-    </MDBCard>
-  </MDBCol>
-
-  <MDBCol size='md'>
-    <MDBCardBody>
-        <MDBCardTitle>Card title</MDBCardTitle>
-        <MDBCardText>  
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </MDBCardText>
-        <MDBBtn>Button</MDBBtn>
-      </MDBCardBody>
-    </MDBCard>
-  </MDBCol>
-</MDBRow>
-
-</MDBContainer>
 
 
 
